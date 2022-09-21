@@ -3,7 +3,7 @@ package com.greatlearning.itsupport.driver;
 import java.util.Scanner;
 
 import com.greatlearning.itsupport.model.Employee;
-import com.greatlearning.itsupport.model.Service;
+import com.greatlearning.itsupport.service.Service;
 
 public class Driver {
 

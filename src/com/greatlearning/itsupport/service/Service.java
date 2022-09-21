@@ -1,6 +1,8 @@
-package com.greatlearning.itsupport.model;
+package com.greatlearning.itsupport.service;
 
 import java.util.Random;
+
+import com.greatlearning.itsupport.model.Employee;
 
 public class Service {
 	
@@ -31,7 +33,7 @@ public class Service {
 	public void showCredentials(Employee employee, String email, char[] Newpassword) {
 		System.out.println("Please find your new credentials:");
 		System.out.println("Your EmailID is:" + email);
-		System.out.println("Your Password is:" + Newpassword);	
+		System.out.println("Your Password is:" + new String(Newpassword));	
 	}
 
 }
